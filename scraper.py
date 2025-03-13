@@ -54,8 +54,6 @@ class Scraper:
             print(f"Error scraping data: {e}")
             return []
             
-     
-            
     def close_browser(self):
         """Closes the browser."""
         self.driver.quit()
